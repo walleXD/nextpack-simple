@@ -1,6 +1,6 @@
 {
-  "name": "nextpack-simple",
-  "description": "A fullstack simple react starter template",
+  "name": "nextpack",
+  "description": "A fullstack opinionated react boilerplate",
   "version": "0.0.1",
   "author": "Walee Ahmed <walee.tausif@gmail.com>",
   "scripts": {
