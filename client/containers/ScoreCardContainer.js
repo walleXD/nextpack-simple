@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { num, func } from 'prop-types'
+import { number, func } from 'prop-types'
 
 import { updateScore } from '../actions'
 import ScoreCard from '../components/example/ScoreCard'
@@ -16,7 +16,7 @@ const mapDispatchToProps = {
 @connect(mapStateToProps, mapDispatchToProps)
 class ScoreCardContainer extends React.Component {
   static propTypes = {
-    score: num,
+    score: number,
     updateScore: func
   }
 

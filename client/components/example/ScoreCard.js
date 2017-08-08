@@ -1,5 +1,5 @@
 import React from 'react'
-import { num, func } from 'prop-types'
+import { number, func } from 'prop-types'
 
 const ScoreCard = ({ score, update }) =>
   <div>
@@ -9,7 +9,7 @@ const ScoreCard = ({ score, update }) =>
   </div>
 
 ScoreCard.propTypes = {
-  score: num,
+  score: number,
   update: func
 }
 
